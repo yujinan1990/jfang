@@ -1,0 +1,11 @@
+### This file is to record some notes in the process of developing this web, seems like a work diary or job record.
+##
+#20th Feb 2018
+Click the _setting_ Tab of _gethub_ web, scroll to _github pages_  , choose _master_ or _gh-pages_ , there will embody different result.
+*If I choose a _theme_ which is provided by github pages, it will generate a _README.md_ automaticly in _master branch_.
+*The _README.md_ file contains all the content about this theme, what I need is to make some change at corresponding part.
+*If I choose _master branch_ at _setting_ Tab, that will make an effect of this theme, when I access this website.
++If I create a _gh-pages_ branch, and choose it at _setting_ Tab, in fact the _gh-pages_ is the default choice when it exists.
++Of course, I should create a _index.html_ file in _gh-pages_ as the default web entrance page.
++This will make the theme I choose before make no effect, because it is in _README.md_ file. The web begins with _index.html_.
+So if I want to use the theme and also I don't want to use _master branch_, I need to copy the content of _README.md_ to _index.html_.
